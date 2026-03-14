@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.foto {
+  width: 100%;
+  height: auto;
+}
+
+
+.filtros select {
+    margin: 10px;
+    padding: 8px;
+}
+
+#produtos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    background: #e91e63;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.banner {
+    height: 400px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;   
+}
+
+.banner-texto h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.banner-texto h2 {
+    font-size: 36px;
+    color: #e91e63;
+}
